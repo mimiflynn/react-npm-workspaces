@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript"],
+  "files.trimTrailingWhitespace": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "search.exclude": {
+    "**/node_modules": true
+  }
+}

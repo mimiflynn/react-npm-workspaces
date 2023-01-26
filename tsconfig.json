@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "paths": {
+      "@rnw/types/*": ["./packages/types/*"],
+      "@rnw/utils/*": ["./packages/utils/*"]
+    },
+    "target": "es5"
+  }
+}
