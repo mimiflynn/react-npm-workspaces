@@ -1,12 +1,16 @@
+---
+to: packages/<%= name %>/package.json
+sh: cd <%= cwd %> && npm install
+---
 {
-  "name": "@rnw/todo",
+  "name": "@rnw/<%= name %>",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "dependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint --ext js,ts,tsx --fix",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "eslintConfig": {
     "extends": [
@@ -25,8 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "dependencies": {
-    "@rnw/utils": "*"
   }
 }

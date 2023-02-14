@@ -2,10 +2,13 @@ import React from 'react';
 import logo from 'logo.svg';
 import 'App.css';
 
+import { GREETING } from '@rnw/utils';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>{GREETING}</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
