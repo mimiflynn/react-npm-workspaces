@@ -9,7 +9,7 @@
     "noEmitOnError": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "types": ["node", "jest", "google.maps"]
+    "types": ["node", "jest"]
   },
   "exclude": ["node_modules", "dist"]
 }

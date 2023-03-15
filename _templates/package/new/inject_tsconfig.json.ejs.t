@@ -3,6 +3,4 @@ inject: true
 to: tsconfig.json
 after: paths
 ---
-            "@rnw/<%= name %>/*": [
-                    "./packages/<%= name %>/*"
-            ],
+      "@rnw/<%= name %>/*": ["./packages/<%= name %>/*"],

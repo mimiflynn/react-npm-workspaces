@@ -30,6 +30,9 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "hygen": "^6.2.11"
+    "customize-cra": "^1.0.0",
+    "hygen": "^6.2.11",
+    "react-app-rewired": "^2.2.1",
+    "tsconfig-paths-webpack-plugin": "^4.0.1"
   }
 }

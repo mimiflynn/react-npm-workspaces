@@ -6,9 +6,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
     "paths": {
-            "@rnw/utils/*": [
-                    "./packages/utils/*"
-            ],
       "@rnw/types/*": ["./packages/types/*"],
       "@rnw/utils/*": ["./packages/utils/*"]
     },
